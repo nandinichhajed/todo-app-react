@@ -1,5 +1,6 @@
 from django import forms
 from django.contrib import admin
+from django.contrib.admin.options import TabularInline
 from mptt.admin import MPTTModelAdmin
 from tractor.models import Tractor
 from .models import (
@@ -31,5 +32,3 @@ class ProductImageInline(admin.TabularInline):
 
 class ProductSpecificationValueInline(admin.TabularInline):
     model = ProductSpecificationValue
-	
-

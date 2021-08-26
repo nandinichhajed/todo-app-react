@@ -1,5 +1,6 @@
 from .models import Tractor
 from django.shortcuts import get_object_or_404, render
+from django.http import JsonResponse
 
 
 def all_tractors(request):
