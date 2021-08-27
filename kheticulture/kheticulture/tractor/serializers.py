@@ -3,8 +3,6 @@ from .models import Tractor
 from .models import Tractor_Types
 from .models import Tractor_Sub_Types_Activities
 
-
-
 class TractorSerializer(serializers.ModelSerializer):
     tractor_type = serializers.PrimaryKeyRelatedField(queryset=Tractor_Types.objects.all(),
                                                   many=False) 
