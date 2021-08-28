@@ -24,7 +24,7 @@ urlpatterns = [
     path("tractor/", include("tractor.urls", namespace="tractor")), 
 	path("account/", include("account.urls", namespace="account")),
     path("orders/", include("orders.urls", namespace="orders")),
-    path("job/", include("job.urls", namespace="urls")),
+    #path("job/", include("job.urls", namespace="urls")),
 	
 ]
 if settings.DEBUG:

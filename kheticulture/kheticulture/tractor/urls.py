@@ -10,6 +10,5 @@ urlpatterns = [
     path('tractor_available_within_radious/', views.get_available_tractors_within_radius, name='get_available_tractors_within_radius'),
     path('details/', views.get_tractor_details, name='get_tractor_details'),
     path('update_tractor_availabilty/', views.update_tractor_availabilty, name='update_tractor_availabilty'),
-    path()
     
 ]
