@@ -1,4 +1,4 @@
-from kheticulture.kheticulture.tractor.serializers import TractorSerializer
+from .serializers import TractorSerializer
 from .models import Tractor
 from rest_framework.decorators import api_view
 from django.shortcuts import get_object_or_404, render
